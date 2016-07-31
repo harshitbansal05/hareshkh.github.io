@@ -1,10 +1,10 @@
 # Site settings
 title: Haresh Khanna
-description: 'Programmer Developer Foodie'
-url: 'http://hareshkh.github.io'
+description: 'Programmer &middot; Developer &middot; Foodie'
+url: 'http://hareshkh.github.io/'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
-disqus_shortname: 'hareshkh'
+disqus_shortname: 'hareshkhanna'
 
 author:
   name: 'Haresh Khanna'
@@ -25,7 +25,7 @@ defaults:
 # Build settings
 destination: _site
 paginate: 10
-permalink: /:year/ :month/ :day/ :title/
+permalink: /:year/:month/:day/:title/
 markdown: kramdown
 highlighter: rouge
 

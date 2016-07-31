@@ -1,8 +1,8 @@
 ---
 title:  "About Me"
 date:   2016-07-23 15:00:00
-categories: [jekyll]
-tags: [jekyll]
+categories: [about]
+tags: [about]
 ---
 
 
