@@ -12,11 +12,11 @@ I was born and raised in Amritsar, Punjab and did my schooling from [DAV Interna
 
 I had started programming in C and slowly I have learnt C++, Java, HTML5, CSS3, JavaScript, PHP and Python.
 
-Anything relating to computers interests me but Android Development and Web Development are my personal favorites. I am a foodie and I love swimming (though I am still in the learning phase). I also like to scribble at times but mostly on a piece of paper.
+Anything related to computers interests me but Android Development and Web Development are my personal favorites. I am a foodie and I love swimming (though I am still in the learning phase). I also like to scribble at times but mostly on a piece of paper.
 
-I'm a Android App developer at [Mobile Development Group (MDG)][MDG], a group promoting android app development in IIT Roorkee.
+I'm an Android App developer at [Mobile Development Group (MDG)][MDG], a group promoting android app development in IIT Roorkee.
 
-I'm a News Editor at [WatchOut! News Agency][WoNA], the official new magazine of IIT Roorkee.
+I'm a News Editor at [WatchOut! News Agency][WoNA], the official news magazine of IIT Roorkee.
 
 Interested to know more? Ping me on [Facebook][fb] or [E-Mail me][mail].
 
