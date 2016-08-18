@@ -1,0 +1,103 @@
+@font-face {
+	font-family: OpenSans;
+	src: url("../fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+	font-family: OpenSansExpanded;
+	src: url("../fonts/OpenSans-Regular.ttf");
+	font-stretch: expanded;
+}
+@font-face {
+	font-family: OpenSansLight;
+	src: url("../fonts/OpenSans-Light.ttf");
+	font-stretch: expanded;
+}
+@font-face {
+	font-family: Consolas;
+	src: url("../fonts/Consolas.ttf");
+	font-stretch: expanded;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url("../img/top_back.PNG") no-repeat;
+	background-size: 100%;
+}
+#begin {
+	position: relative;
+	width: auto;
+	height: 51.7vw;
+	line-height: 51.7vw;
+	text-align: center;
+	font-family: Consolas;
+	font-size: 10vw;
+}
+#begin:hover {
+	cursor: pointer;
+}
+#hellomessage {
+	color: #00BFFB;
+}
+#hellomessage>span {
+	color: #00FBBF;
+}
+#content {
+	position: relative;
+	width: auto;
+	height: 40vw;
+	margin-left: auto;
+	background: rgba(255,248,220,0.3);
+}
+#content:hover {
+	background: rgba(255,248,220,0.6);
+}
+#myphoto {
+	margin-top: 6vw;
+	width: 20vw;
+	margin-left: 39.5vw;
+	border-radius: 50%
+}
+#myphoto:hover {
+	margin-top: 5.875vw;
+	width: 20.25vw;
+	margin-left: 39.375vw;
+	border-radius: 50%;
+	opacity: 0.9;
+}
+#name, #adj{
+	width: auto;
+	margin-left: auto;
+	text-align: center;
+}
+#name {
+	padding-top: 0.9vw;
+	font-family: OpenSansExpanded;
+	font-size: 3.5vw;
+}
+#adj {
+	padding-top: 0.1vw;
+	font-family: OpenSansLight;
+	font-size: 2.5vw;
+}
+#footer {
+	width:100%;
+	background: rgba(210,180,140,0.6);
+}
+.logos {
+	margin-top: 1vw;
+	margin-left: 6.5vw;
+	margin-right: 6.5vw;
+	margin-bottom: 1vw;
+	height: 6vw;
+	width: 6vw;
+	border-radius: 50%
+}
+.logos:hover {
+	box-shadow: 0.5vw 0.5vw 1vw rgba(69,69,69, 0.3);
+	opacity: 0.85;
+}
