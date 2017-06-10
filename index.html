@@ -1,24 +1,30 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="main-post-list">
+<head>
+    <meta charset="utf-8">
+    <title>Haresh Khanna</title>
+    <meta name="description" content="Haresh Khanna's Portfolio">
+    <meta name="author" content="Haresh Khanna">
+    <meta property="og:url" content="https://hareshkh.github.io" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Haresh Khanna" />
+    <meta property="og:description" content="Haresh Khanna's Portfolio" />
+    <meta property="og:image" content="https://hareshkh.github.io/images/me.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+</head>
 
-  <ol class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-        <p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&hellip;</p>
-        <div class="post-list__meta"><time datetime="{{ post.date | date: "%-d %b %Y" }}" class="post-list__meta--date date">{{ post.date | date: "%-d %b %Y" }}</time> &#8226; <span class="post-meta__tags">on {% for tag in post.tags %}<a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span></div>
-        <hr class="post-list__divider">
-      </li>
-    {% endfor %}
-  </ol>
+<body>
+    <div id="main">
+        <div id="title" class="center">haresh khanna</div>
+        <div class="container">
+            <a class="btn" href="https://hareshkh.github.io/blog/about/">ABOUT</a>
+            <a class="btn" href="https://hareshkh.github.io/blog">BLOG</a>
+            <a class="btn" href="https://hareshkh.github.io/blog/resume.pdf">RESUME</a>
+            <a class="btn" href="https://github.com/hareshkh">GITHUB</a>
+        </div>
+    </div>
+</body>
 
-  <hr class="post-list__divider ">
-
-  {% if paginator.previous_page or paginator.next_page %}
-      {% include pagination.html %}
-  {% endif %}
-
-</div>
+</html>
