@@ -28,8 +28,8 @@ html {
 }
 
 #title {
-    font-weight: 90;
-    font-size: 116px;
+    font-weight: 100;
+    font-size: 88px;
     color: white;
 }
 
@@ -43,6 +43,6 @@ a {
   color: white;
   text-decoration: none;
   padding: 1em;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 22px;
 }
